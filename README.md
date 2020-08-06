@@ -1,10 +1,15 @@
-# awesome-dynamic-graphs
+# Awesome Dynamic Graphs
 A collection of resources on dynamic/streaming/temporal/evolving graph processing systems, databases, data structures, datasets, and related academic and industrial work.
 
-# Papers
+## Contributing
+
+To add, remove or change things on the list:
+[please submit a pull request to the GitHub repository](https://github.com/domargan/awesome-dynamic-graphs).
+
+## Papers
 Check https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks for the further reference and a great list of related papers.
 
-## Algorithms and Data Structures
+### Algorithms and Data Structures
 
 [Static and dynamic parallel computation of connected components](https://www.sciencedirect.com/science/article/pii/0020019094000166)  (Information Processing Letters 1994)
 
@@ -48,7 +53,7 @@ Check https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks for the
 
 
 
-## Systems and Frameworks
+### Systems and Frameworks
 
 [STINGER: Spatio-Temporal Interaction Networks and Graphs (STING) Extensible Representation](https://pdfs.semanticscholar.org/6992/7a3b9fc25e655ce662c03deb1e9d2832585c.pdf)  (2009)
 
@@ -109,7 +114,7 @@ Check https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks for the
 [GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2020)  
 
 
-# Datasets
+## Datasets
 
 |         Name         	| Size (\|V\|) 	| Volume (\|E\|) 	|                      Source/Link                     	|
 |:--------------------:	|:------------:	|:--------------:	|:----------------------------------------------------:	|
@@ -130,3 +135,13 @@ Check https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks for the
 |     rec-amz-Books    	|  10,356,390  	|   22,507,155   	|    https://networkrepository.com/rec-amz-Books.php   	|
 |   sx-stackoverflow   	|   2,601,977  	|   99,730,500   	| https://snap.stanford.edu/data/sx-stackoverflow.html 	|
 |     higgs-twitter    	|    456,626   	|   14,855,842   	|   https://snap.stanford.edu/data/higgs-twitter.html  	|
+
+
+## About
+
+This list was compiled by Domagoj Margan with help and resources from the systems community:
+* [domargan.net](https://domargan.net/)
+* [dm@domargan.net](mailto:dm@domargan.net)
+* [github.com/domargan](https://github.com/domargan)
+* [twitter.com/domargan](https://twitter.com/domargan)
+* [linkedin.com/in/domargan](https://www.linkedin.com/in/domargan)
