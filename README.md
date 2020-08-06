@@ -107,3 +107,26 @@ Check https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks for the
 [Low-Latency Graph Streaming Using Compressed Purely-Functional Trees](https://people.csail.mit.edu/jshun/aspen.pdf) (PLDI 2019)
 
 [GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2020)  
+
+
+# Datasets
+
+|         Name         	| Size (\|V\|) 	| Volume (\|E\|) 	|                      Source/Link                     	|
+|:--------------------:	|:------------:	|:--------------:	|:----------------------------------------------------:	|
+| Wikipedia, EN, edits 	|  50,757,442  	|   572,591,272  	|        http://konect.cc/networks/edit-enwiki/        	|
+|  Wikipedia, simple   	|    100,312   	|    1,627,472   	|  http://konect.cc/networks/link-dynamic-simplewiki/  	|
+|     Wikipedia, DE    	|   2,166,669  	|   86,337,879   	|    http://konect.cc/networks/link-dynamic-dewiki/    	|
+|     Wikipedia, FR    	|   2,212,682  	|   59,008,831   	|    http://konect.cc/networks/link-dynamic-frwiki/    	|
+|     Wikipedia, IT    	|   1,204,009  	|   34,826,283   	|    http://konect.cc/networks/link-dynamic-itwiki/    	|
+|     Wikipedia, NL    	|   1,039,252  	|   20,070,561   	|    http://konect.cc/networks/link-dynamic-nlwiki/    	|
+|     Wikipedia, PL    	|   1,033,050  	|   25,026,208   	|    http://konect.cc/networks/link-dynamic-plwiki/    	|
+|   Twitter mentions   	|   2,919,613  	|   12,887,063   	|    http://konect.cc/networks/munmun_twitterex_at/    	|
+|       Epinions       	|    876,252   	|   13,668,320   	|      http://konect.cc/networks/epinions-rating/      	|
+|      Lastfm band     	|    175,069   	|   19,150,868   	|        http://konect.cc/networks/lastfm_band/        	|
+|      Lastfm song     	|   1,085,612  	|   19,150,868   	|        http://konect.cc/networks/lastfm_song/        	|
+|        Netflix       	|    497,959   	|   100,480,507  	|          http://konect.cc/networks/netflix/          	|
+|      Yahoo-song      	|   1,625,951  	|   256,804,235  	|         http://konect.cc/networks/yahoo-song/        	|
+|      soc-bitcoin     	|  24,575,382  	|   122,948,162  	|     https://networkrepository.com/soc-bitcoin.php    	|
+|     rec-amz-Books    	|  10,356,390  	|   22,507,155   	|    https://networkrepository.com/rec-amz-Books.php   	|
+|   sx-stackoverflow   	|   2,601,977  	|   99,730,500   	| https://snap.stanford.edu/data/sx-stackoverflow.html 	|
+|     higgs-twitter    	|    456,626   	|   14,855,842   	|   https://snap.stanford.edu/data/higgs-twitter.html  	|
