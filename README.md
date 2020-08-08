@@ -7,16 +7,23 @@ To add, remove or change things on the list:
 [please submit a pull request to the GitHub repository](https://github.com/domargan/awesome-dynamic-graphs).
 
 ## Open Source Projects
-* [Aspen](https://github.com/ldhulipala/aspen)
-* [GraphBolt](https://github.com/pdclab/graphbolt)
-* [GraphJet](https://github.com/twitter/GraphJet)
-* [GraphOne](https://github.com/the-data-lab/GraphOne)
-* [KickStarter](https://github.com/pdclab/graphbolt)
-* [LLAMA](https://github.com/goatdb/llama)
-* [PCSR](https://github.com/wheatman/Packed-Compressed-Sparse-Row/)
-* [PPPCSR](https://github.com/domargan/parallel-packed-csr)
-* [Raphtory](https://github.com/Raphtory/Raphtory)
-* [STINGER](https://github.com/stingergraph/stinger)
+### Data Structures, Systems and Frameworks
+* [Aspen](https://github.com/ldhulipala/aspen)[C++]
+* [Differential Dataflow](https://github.com/frankmcsherry/differential-dataflow) [Rust]
+* [GraphBolt](https://github.com/pdclab/graphbolt) [C++]
+* [GraphJet](https://github.com/twitter/GraphJet) [Java]
+* [GraphOne](https://github.com/the-data-lab/GraphOne) [C++]
+* [GreyCat](https://github.com/datathings/greycat) [Java]
+* [GoFFish](https://github.com/usc-cloud/goffish)[Java]
+* [KickStarter](https://github.com/pdclab/graphbolt)[C++]
+* [LLAMA](https://github.com/goatdb/llama) [C++]
+* [PCSR](https://github.com/wheatman/Packed-Compressed-Sparse-Row/) [C++]
+* [PPPCSR](https://github.com/domargan/parallel-packed-csr) [C++]
+* [Raphtory](https://github.com/Raphtory/Raphtory) [Scala]
+* [STINGER](https://github.com/stingergraph/stinger) [C/C++]
+
+### Benchmarking
+* [GraphTides](https://github.com/GraphTides/graphtides)
 
 ## Papers
 Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks) for a further reference and an extensive collection of related papers.
