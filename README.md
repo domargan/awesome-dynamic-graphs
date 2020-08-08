@@ -24,7 +24,7 @@ To add, remove or change things on the list:
     * Storage engine for streaming graph data
     * [Paper](https://www.usenix.org/system/files/fast19-kumar.pdf)
 * [GreyCat](https://github.com/datathings/greycat) [Java]
-    * **Many-world** temporal graph data store
+    * _Many-world_ temporal graph data store
     * [Paper](https://hal.inria.fr/hal-02059882/document)
 * [GoFFish](https://github.com/usc-cloud/goffish)[Java]
     * Multi-source streaming graph processing system
