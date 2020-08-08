@@ -8,22 +8,47 @@ To add, remove or change things on the list:
 
 ## Open Source Projects
 ### Data Structures, Systems and Frameworks
-* [Aspen](https://github.com/ldhulipala/aspen)[C++]
+* [Aspen](https://github.com/ldhulipala/aspen) [C++]
+    * Streaming graph processing system based on compressed purely-functional trees
+    * [Paper](https://people.csail.mit.edu/jshun/aspen.pdf)
 * [Differential Dataflow](https://github.com/frankmcsherry/differential-dataflow) [Rust]
+    * General data-parallel programming framework suitable for processing large dynamic graphs
+    * [Paper](http://michaelisard.com/pubs/differentialdataflow.pdf)
 * [GraphBolt](https://github.com/pdclab/graphbolt) [C++]
+    * Streaming graph processing system that provides BSP guarantees 
+    * [Paper](https://dl.acm.org/doi/10.1145/3302424.3303974)
 * [GraphJet](https://github.com/twitter/GraphJet) [Java]
+    * Streaming graph processing system for generating content recommendations at Twitter
+    * [Paper](https://www.vldb.org/pvldb/vol9/p1281-sharma.pdf)
 * [GraphOne](https://github.com/the-data-lab/GraphOne) [C++]
+    * Storage engine for streaming graph data
+    * [Paper](https://www.usenix.org/system/files/fast19-kumar.pdf)
 * [GreyCat](https://github.com/datathings/greycat) [Java]
+    * **Many-world** temporal graph data store
+    * [Paper](https://hal.inria.fr/hal-02059882/document)
 * [GoFFish](https://github.com/usc-cloud/goffish)[Java]
+    * Multi-source streaming graph processing system
 * [KickStarter](https://github.com/pdclab/graphbolt)[C++]
+    * Streaming graph processing system optimising for path-based/monotonic graph algorithms
+    * [Paper](https://dl.acm.org/doi/10.1145/3037697.3037748)
 * [LLAMA](https://github.com/goatdb/llama) [C++]
+    * CSR-based storage engine and streaming graph processing system
+    * [Paper](https://ieeexplore.ieee.org/document/7113298/)
 * [PCSR](https://github.com/wheatman/Packed-Compressed-Sparse-Row/) [C++]
-* [PPPCSR](https://github.com/domargan/parallel-packed-csr) [C++]
+    * CSR-inspired, packed memory array based data structure for streaming graphs
+    * [Paper](https://ieeexplore.ieee.org/document/8547566)
+* [PPCSR](https://github.com/domargan/parallel-packed-csr) [C++]
+    * Parallel and NUMA-aware implementation of PCSR data structure for streaming graphs
 * [Raphtory](https://github.com/Raphtory/Raphtory) [Scala]
+    * Snapshot-based distributed streaming graph processing system 
 * [STINGER](https://github.com/stingergraph/stinger) [C/C++]
+    * Data structure for streaming graphs based on linked lists of blocks
+    * [Paper](https://ieeexplore.ieee.org/document/6408680)
 
 ### Benchmarking
 * [GraphTides](https://github.com/GraphTides/graphtides)
+    * Framework for evaluating streaming graph processing platforms
+    * [Paper](https://dl.acm.org/doi/10.1145/3210259.3210262)
 
 ## Papers
 Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks) for a further reference and an extensive collection of related papers.
@@ -44,7 +69,7 @@ Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#stream
 
 [STINGER: High Performance Data Structure for Streaming Graphs](https://ieeexplore.ieee.org/document/6408680)  (HPEC 2012)
 
-[QUBE: a Quick algorithm for Updating BEtweenness centrality](https://dl.acm.org/citation.cfm?id=2187884)  (WWW 2012)
+[QUBE: a Quick algorithm for Updating Betweenness centrality](https://dl.acm.org/citation.cfm?id=2187884)  (WWW 2012)
 
 [A New Parallel Algorithm for Connected Components in Dynamic Graphs](https://ieeexplore.ieee.org/document/6799108)  (HiPC 2013)
 
