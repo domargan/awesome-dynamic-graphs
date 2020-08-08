@@ -7,7 +7,7 @@ To add, remove or change things on the list:
 [please submit a pull request to the GitHub repository](https://github.com/domargan/awesome-dynamic-graphs).
 
 ## Papers
-Check https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks for the further reference and a great list of related papers.
+Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks) for a further reference and an extensive collection of related papers.
 
 ### Algorithms and Data Structures
 
@@ -115,26 +115,49 @@ Check https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks for the
 
 
 ## Datasets
+Note: Very small datasets are not included in the list.
+|        Category        	|        Data Source        	|           Name          	|          Type          	|   Vertex Meaning  	|      Edge Meaning     	| Size (\|V\|) 	| Volume (\|E\|) 	| Edge Weight 	| Edge Timestamps 	| Multiple Edges 	|                     Source/Link                    	|
+|:----------------------:	|:-------------------------:	|:-----------------------:	|:----------------------:	|:-----------------:	|:---------------------:	|:------------:	|:--------------:	|:-----------:	|:---------------:	|:--------------:	|:--------------------------------------------------:	|
+|   Authorship network   	|         Wikipedia         	|       edit-enwiki       	|  Bipartite, undirected 	|   User, article   	|          Edit         	|  50,757,442  	|   572,591,272  	|      N      	|        Y        	|        Y       	|       http://konect.cc/networks/edit-enwiki/       	|
+|    Citation network    	|            DBLP           	|        dblp-cite        	|  Unipartite, directed  	|    Publication    	|        Citation       	|    12,590    	|     49,759     	|      N      	|        Y        	|        N       	|        http://konect.cc/networks/dblp-cite/        	|
+|   Co-citation network  	|           arXiv           	|       ca-cit-HepPh      	| Unipartite, undirected 	|       Author      	|      Co-citation      	|    28,093    	|    4,596,803   	|      N      	|        Y        	|        Y       	|       http://konect.cc/networks/ca-cit-HepPh/      	|
+|   Co-citation network  	|           arXiv           	|       ca-cit-HepTh      	| Unipartite, undirected 	|       Author      	|      Co-citation      	|    22,908    	|    2,673,133   	|      N      	|        Y        	|        Y       	|       http://konect.cc/networks/ca-cit-HepTh/      	|
+|  Communication network 	|          Facebook         	|    facebook-wosn-wall   	|  Unipartite, directed  	|        User       	|       Wall post       	|    46,952    	|     876,993    	|      N      	|        Y        	|        Y       	|    http://konect.cc/networks/facebook-wosn-wall/   	|
+|  Communication network 	| Linux kernel mailing list 	|        lkml-reply       	|  Unipartite, directed  	|       Person      	|         Reply         	|    63,399    	|    1,096,440   	|      N      	|        Y        	|        Y       	|        http://konect.cc/networks/lkml-reply/       	|
+|    Computer network    	|     Internet topology     	|         topology        	| Unipartite, undirected 	| Autonomous system 	|       Connection      	|    34,761    	|     171,403    	|      N      	|        Y        	|        Y       	|         http://konect.cc/networks/topology/        	|
+|     Feature network    	|         BibSonomy         	|      bibsonomy-2ti      	|  Bipartite, undirected 	|  Tag, publication 	|       Assignment      	|    972,120   	|    2,555,080   	|      N      	|        Y        	|        Y       	|      http://konect.cc/networks/bibsonomy-2ti/      	|
+|     Feature network    	|         CiteULike         	|       citeulike-ti      	|  Bipartite, undirected 	|  Tag, publication 	|       Assignment      	|    885,046   	|    2,411,819   	|      N      	|        Y        	|        Y       	|       http://konect.cc/networks/citeulike-ti/      	|
+|     Feature network    	|         Delicious         	|       delicious-ti      	|  Bipartite, undirected 	|     Tag,  URL     	|     Tag assignment    	|  38,289,740  	|   301,183,605  	|      N      	|        Y        	|        Y       	|       http://konect.cc/networks/delicious-ti/      	|
+|     Feature network    	|          Google+          	|    stevgong_attribute   	|  Bipartite, undirected 	|  User, attribute  	|     Attribute-link    	|  10,442,421  	|   20,592,962   	|      N      	|        Y        	|        N       	|    http://konect.cc/networks/stevgong_attribute/   	|
+|     Feature network    	|          Twitter          	|   munmun_twitterex_ti   	|  Bipartite, undirected 	|   Hashtag,  URL   	|     Co-occurrence     	|   1,502,611  	|    2,635,885   	|      N      	|        Y        	|        Y       	|   http://konect.cc/networks/munmun_twitterex_ti/   	|
+|  Human contact network 	|            MIT            	|           mit           	| Unipartite, undirected 	|       Person      	|        Contact        	|      96      	|    1,086,404   	|      N      	|        Y        	|        Y       	|           http://konect.cc/networks/mit/           	|
+|    Hyperlink network   	|         Wikipedia         	|   link-dynamic-dewiki   	|  Unipartite, directed  	|      Article      	|       Reference       	|   2,166,669  	|   86,337,879   	|      N      	|        Y        	|        N       	|   http://konect.cc/networks/link-dynamic-dewiki/   	|
+|    Hyperlink network   	|         Wikipedia         	|   link-dynamic-frwiki   	|  Unipartite, directed  	|      Article      	|       Reference       	|   2,212,682  	|   59,008,831   	|      N      	|        Y        	|        N       	|   http://konect.cc/networks/link-dynamic-frwiki/   	|
+|    Hyperlink network   	|         Wikipedia         	|   link-dynamic-itwiki   	|  Unipartite, directed  	|      Article      	|       Reference       	|   1,204,009  	|   34,826,283   	|      N      	|        Y        	|        N       	|   http://konect.cc/networks/link-dynamic-itwiki/   	|
+|    Hyperlink network   	|         Wikipedia         	|   link-dynamic-nlwiki   	|  Unipartite, directed  	|      Article      	|       Reference       	|   1,039,252  	|   20,070,561   	|      N      	|        Y        	|        N       	|   http://konect.cc/networks/link-dynamic-nlwiki/   	|
+|    Hyperlink network   	|         Wikipedia         	|   link-dynamic-plwiki   	|  Unipartite, directed  	|      Article      	|       Reference       	|   1,033,050  	|   25,026,208   	|      N      	|        Y        	|        N       	|   http://konect.cc/networks/link-dynamic-plwiki/   	|
+|    Hyperlink network   	|         Wikipedia         	| link-dynamic-simplewiki 	|  Unipartite, directed  	|      Article      	|       Reference       	|    100,312   	|    1,627,472   	|      N      	|        Y        	|        N       	| http://konect.cc/networks/link-dynamic-simplewiki/ 	|
+|   Interaction network  	|           LastFm          	|       lastfm_band       	|  Bipartite, undirected 	|     User, band    	|       Listening       	|    175,069   	|   19,150,868   	|      N      	|        Y        	|        Y       	|       http://konect.cc/networks/lastfm_band/       	|
+|   Interaction network  	|           LastFm          	|       lastfm_song       	|  Bipartite, undirected 	|     User, song    	|       Listening       	|   1,085,612  	|   19,150,868   	|      N      	|        Y        	|        Y       	|       http://konect.cc/networks/lastfm_song/       	|
+| Online contact network 	|       Stack Exchange      	|       sx-askubuntu      	|  Unipartite, directed  	|        User       	|     Answer/comment    	|    159,316   	|     964,437    	|      N      	|        Y        	|        Y       	|       http://konect.cc/networks/sx-askubuntu/      	|
+| Online contact network 	|       Stack Exchange      	|     sx-mathoverflow     	|  Unipartite, directed  	|        User       	|     Answer/comment    	|    24,818    	|     506,550    	|      N      	|        Y        	|        Y       	|     http://konect.cc/networks/sx-mathoverflow/     	|
+| Online contact network 	|       Stack Exchange      	|     sx-stackoverflow    	|  Unipartite, directed  	|        User       	|     Answer/comment    	|   2,601,977  	|   63,497,050   	|      N      	|        Y        	|        Y       	|     http://konect.cc/networks/sx-stackoverflow/    	|
+| Online contact network 	|       Stack Exchange      	|       sx-superuser      	|  Unipartite, directed  	|        User       	|     Answer/comment    	|    194,085   	|    1,443,339   	|      N      	|        Y        	|        Y       	|       http://konect.cc/networks/sx-superuser/      	|
+| Online contact network 	|          Twitter          	|      higgs-twitter      	|  Unipartite, directed  	|        User       	| Retweet/mention/reply 	|       ?      	|     563,069    	|      N      	|        Y        	|      Y (?)     	|  https://snap.stanford.edu/data/higgs-twitter.html 	|
+| Online contact network 	|          Twitter          	|   munmun_twitterex_at   	|  Unipartite, directed  	|        User       	|        Mention        	|   2,919,613  	|   12,887,063   	|      N      	|        Y        	|        Y       	|   http://konect.cc/networks/munmun_twitterex_at/   	|
+| Online contact network 	|         Wikipedia         	|           elec          	|  Unipartite, directed  	|        User       	|          Vote         	|     7,118    	|     103,675    	|      N      	|        Y        	|        N       	|           http://konect.cc/networks/elec/          	|
+| Online contact network 	|         Wikipedia         	|       wikiconflict      	| Unipartite, undirected 	|        User       	|     Edit conflict     	|    118,100   	|    2,917,785   	|      Y      	|        Y        	|        Y       	|       http://konect.cc/networks/wikiconflict/      	|
+|  Online social network 	|          Bitcoin          	|       soc-bitcoin       	|  Unipartite, directed  	|       Member      	|     Trust/distrust    	|  24,575,382  	|   122,948,162  	|      ?      	|        Y        	|        N       	|    https://networkrepository.com/soc-bitcoin.php   	|
+|  Online social network 	|            Digg           	|       digg-friends      	|  Unipartite, directed  	|        User       	|          Vote         	|    279,630   	|    1,731,653   	|      N      	|        Y        	|        N       	|       http://konect.cc/networks/digg-friends/      	|
+|  Online social network 	|          Facebook         	|   facebook-wosn-links   	| Unipartite, undirected 	|        User       	|       Friendship      	|    63,731    	|     817,035    	|      N      	|        Y        	|        N       	|   http://konect.cc/networks/facebook-wosn-links/   	|
+|  Online social network 	|           Flickr          	|      flickr-growth      	|  Unipartite, directed  	|        User       	|       Friendship      	|   2,302,925  	|   33,140,017   	|      N      	|        Y        	|        N       	|      http://konect.cc/networks/flickr-growth/      	|
+|  Online social network 	|          Google+          	|     stevgong_social     	|  Unipartite, directed  	|        User       	|      Interaction      	|  28,943,739  	|   462,994,069  	|      N      	|        Y        	|        N       	|     http://konect.cc/networks/stevgong_social/     	|
+|  Online social network 	|          YouTube          	|     youtube-u-growth    	| Unipartite, undirected 	|        User       	|       Friendship      	|   3,223,589  	|    9,375,374   	|      N      	|        Y        	|        N       	|     http://konect.cc/networks/youtube-u-growth/    	|
+|     Rating network     	|           Amazon          	|      rec-amz-Books      	|  Bipartite, undirected 	|   User, product   	|         Rating        	|  10,356,390  	|   22,507,155   	|      Y      	|        Y        	|        N       	|   https://networkrepository.com/rec-amz-Books.php  	|
+|     Rating network     	|          Epinions         	|     epinions-rating     	|  Bipartite, undirected 	|   User, product   	|         Rating        	|    876,252   	|   13,668,320   	|      N      	|        Y        	|        Y       	|     http://konect.cc/networks/epinions-rating/     	|
+|     Rating network     	|          Netflix          	|         netflix         	|  Bipartite, undirected 	|    User, movie    	|         Rating        	|    497,959   	|   100,480,507  	|      Y      	|        Y        	|        N       	|         http://konect.cc/networks/netflix/         	|
+|     Rating network     	|           Yahoo           	|        yahoo-song       	|  Bipartite, undirected 	|    Person, song   	|         Rating        	|   1,625,951  	|   256,804,235  	|      Y      	|        Y        	|        N       	|        http://konect.cc/networks/yahoo-song/       	|
 
-|         Name         	| Size (\|V\|) 	| Volume (\|E\|) 	|                      Source/Link                     	|
-|:--------------------:	|:------------:	|:--------------:	|:----------------------------------------------------:	|
-| Wikipedia, EN, edits 	|  50,757,442  	|   572,591,272  	|        http://konect.cc/networks/edit-enwiki/        	|
-|  Wikipedia, simple   	|    100,312   	|    1,627,472   	|  http://konect.cc/networks/link-dynamic-simplewiki/  	|
-|     Wikipedia, DE    	|   2,166,669  	|   86,337,879   	|    http://konect.cc/networks/link-dynamic-dewiki/    	|
-|     Wikipedia, FR    	|   2,212,682  	|   59,008,831   	|    http://konect.cc/networks/link-dynamic-frwiki/    	|
-|     Wikipedia, IT    	|   1,204,009  	|   34,826,283   	|    http://konect.cc/networks/link-dynamic-itwiki/    	|
-|     Wikipedia, NL    	|   1,039,252  	|   20,070,561   	|    http://konect.cc/networks/link-dynamic-nlwiki/    	|
-|     Wikipedia, PL    	|   1,033,050  	|   25,026,208   	|    http://konect.cc/networks/link-dynamic-plwiki/    	|
-|   Twitter mentions   	|   2,919,613  	|   12,887,063   	|    http://konect.cc/networks/munmun_twitterex_at/    	|
-|       Epinions       	|    876,252   	|   13,668,320   	|      http://konect.cc/networks/epinions-rating/      	|
-|      Lastfm band     	|    175,069   	|   19,150,868   	|        http://konect.cc/networks/lastfm_band/        	|
-|      Lastfm song     	|   1,085,612  	|   19,150,868   	|        http://konect.cc/networks/lastfm_song/        	|
-|        Netflix       	|    497,959   	|   100,480,507  	|          http://konect.cc/networks/netflix/          	|
-|      Yahoo-song      	|   1,625,951  	|   256,804,235  	|         http://konect.cc/networks/yahoo-song/        	|
-|      soc-bitcoin     	|  24,575,382  	|   122,948,162  	|     https://networkrepository.com/soc-bitcoin.php    	|
-|     rec-amz-Books    	|  10,356,390  	|   22,507,155   	|    https://networkrepository.com/rec-amz-Books.php   	|
-|   sx-stackoverflow   	|   2,601,977  	|   99,730,500   	| https://snap.stanford.edu/data/sx-stackoverflow.html 	|
-|     higgs-twitter    	|    456,626   	|   14,855,842   	|   https://snap.stanford.edu/data/higgs-twitter.html  	|
 
 
 ## About
