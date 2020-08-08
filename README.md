@@ -6,6 +6,18 @@ A collection of resources on dynamic/streaming/temporal/evolving graph processin
 To add, remove or change things on the list:
 [please submit a pull request to the GitHub repository](https://github.com/domargan/awesome-dynamic-graphs).
 
+## Open Source Projects
+* [Aspen](https://github.com/ldhulipala/aspen)
+* [GraphBolt](https://github.com/pdclab/graphbolt)
+* [GraphJet](https://github.com/twitter/GraphJet)
+* [GraphOne](https://github.com/the-data-lab/GraphOne)
+* [KickStarter](https://github.com/pdclab/graphbolt)
+* [LLAMA](https://github.com/goatdb/llama)
+* [PCSR](https://github.com/wheatman/Packed-Compressed-Sparse-Row/)
+* [PPPCSR](https://github.com/domargan/parallel-packed-csr)
+* [Raphtory](https://github.com/Raphtory/Raphtory)
+* [STINGER](https://github.com/stingergraph/stinger)
+
 ## Papers
 Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks) for a further reference and an extensive collection of related papers.
 
