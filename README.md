@@ -46,7 +46,7 @@ To add, remove or change things on the list:
     * [Paper](https://ieeexplore.ieee.org/document/6408680)
 
 ### Benchmarking
-* [GraphTides](https://github.com/GraphTides/graphtides)
+* [GraphTides](https://github.com/GraphTides/graphtides) [Java/TypeScript]
     * Framework for evaluating streaming graph processing platforms
     * [Paper](https://dl.acm.org/doi/10.1145/3210259.3210262)
 
