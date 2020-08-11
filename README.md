@@ -155,7 +155,7 @@ Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#stream
 
 [Low-Latency Graph Streaming Using Compressed Purely-Functional Trees](https://people.csail.mit.edu/jshun/aspen.pdf) (PLDI 2019)
 
-[GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2020)  
+[GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2019)  
 
 
 ## Datasets
