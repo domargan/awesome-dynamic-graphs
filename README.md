@@ -210,9 +210,4 @@ Note: Very small datasets are not included in the list.
 
 ## About
 
-This list was compiled by Domagoj Margan with help and resources from the systems community:
-* [domargan.net](https://domargan.net/)
-* [dm@domargan.net](mailto:dm@domargan.net)
-* [github.com/domargan](https://github.com/domargan)
-* [twitter.com/domargan](https://twitter.com/domargan)
-* [linkedin.com/in/domargan](https://www.linkedin.com/in/domargan)
+This list was compiled by [Domagoj Margan](https://github.com/domargan) with help and resources from the systems community.
