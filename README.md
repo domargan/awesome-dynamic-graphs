@@ -2,9 +2,9 @@
 A collection of resources on dynamic/streaming/temporal/evolving graph processing systems, databases, data structures, datasets, and related academic and industrial work.
 
 ## Contributing
-
 To add, remove or change things on the list:
 [please submit a pull request to the GitHub repository](https://github.com/domargan/awesome-dynamic-graphs).
+
 
 ## Open Source Projects
 ### Data Structures, Systems and Frameworks
@@ -50,55 +50,20 @@ To add, remove or change things on the list:
     * Framework for evaluating streaming graph processing platforms
     * [Paper](https://dl.acm.org/doi/10.1145/3210259.3210262)
 
+
 ## Papers
 Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#streamingframeworks) for a further reference and an extensive collection of related papers.
 
-### Algorithms and Data Structures
-
-[Static and dynamic parallel computation of connected components](https://www.sciencedirect.com/science/article/pii/0020019094000166)  (Information Processing Letters 1994)
-
-[Sparsification-A Technique for Speeding Up Dynamic Graph Algorithms](https://dl.acm.org/citation.cfm?id=265914)  (Journal of the ACM 1997)
-
-[Randomized Fully Dynamic Graph Algorithms with Polylogarithmic Time per Operation](https://dl.acm.org/citation.cfm?id=320215)  (Journal of the ACM 1999)
-
-[An Experimental Analysis of Self-Adjusting Computation](https://dl.acm.org/citation.cfm?id=1596530)  (TPLS 2009)
-
+### Data Structures and Storage
 [STINGER: Spatio-Temporal Interaction Networks and Graphs (STING) Extensible Representation](https://pdfs.semanticscholar.org/6992/7a3b9fc25e655ce662c03deb1e9d2832585c.pdf)  (2009)
-
-[A Fast Algorithm for Streaming Betweenness Centrality](https://ieeexplore.ieee.org/document/6406265)  (SocialCom 2012)
 
 [STINGER: High Performance Data Structure for Streaming Graphs](https://ieeexplore.ieee.org/document/6408680)  (HPEC 2012)
 
-[QUBE: a Quick algorithm for Updating Betweenness centrality](https://dl.acm.org/citation.cfm?id=2187884)  (WWW 2012)
-
-[A New Parallel Algorithm for Connected Components in Dynamic Graphs](https://ieeexplore.ieee.org/document/6799108)  (HiPC 2013)
-
-[Incremental Algorithm for Updating Betweenness Centrality in Dynamically Growing Networks](https://ieeexplore.ieee.org/document/6785684)  (ASONAM 2013)
-
-[Fully Dynamic Betweenness Centrality](https://arxiv.org/abs/1506.05783) (ArXiv 2015)  
-
-[Fully Dynamic Betweenness Centrality Maintenance on Massive Networks](https://dl.acm.org/citation.cfm?id=2850580)  (VLDB 2015)
-
-[Approximating Betweenness Centrality in Fully Dynamic Networks](https://www.tandfonline.com/doi/abs/10.1080/15427951.2016.1177802)  (Internet Mathematics 2016)
-
-[Faster Worst Case Deterministic Dynamic Connectivity](http://drops.dagstuhl.de/opus/volltexte/2016/6395/)  (ESA 2016)
-
-[Scalable Online Betweenness Centrality in Evolving Graphs](https://ieeexplore.ieee.org/document/7498421)  (ICDE 2016)
-
-[Faster Betweenness Centrality Updates in Evolving Networks](http://drops.dagstuhl.de/opus/volltexte/2017/7609/pdf/LIPIcs-SEA-2017-23.pdf)  (SEA 2017)
-
-[Work-Efficient Parallel Union-Find](https://onlinelibrary.wiley.com/doi/full/10.1002/cpe.4333)  (CCPE 2017)
-
-[ABRA: Approximating Betweenness Centrality in Static and Dynamic Graphs with Rademacher Averages](https://dl.acm.org/citation.cfm?id=3208351)  (TKDD 2018)
-
 [Packed Compressed Sparse Row: A Dynamic Graph Representation](https://ieeexplore.ieee.org/document/8547566) (HPEC 2018)
 
-[Parallel Batch-Dynamic Graph Connectivity](https://dl.acm.org/doi/10.1145/3323165.3323196)  (SPAA 2019)
-
-
+[GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2019)  
 
 ### Systems and Frameworks
-
 [STINGER: Spatio-Temporal Interaction Networks and Graphs (STING) Extensible Representation](https://pdfs.semanticscholar.org/6992/7a3b9fc25e655ce662c03deb1e9d2832585c.pdf)  (2009)
 
 [On Querying Historical Evolving Graph Sequences](http://www.vldb.org/pvldb/vol4/p726-ren.pdf)  (VLDB 2011)
@@ -160,8 +125,6 @@ Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#stream
 [GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2019)  
 
 
-
-
 ## Datasets
 Note: Very small datasets are not included in the list.
 |        Category        	|        Data Source        	|           Name          	|          Type          	|   Vertex Meaning  	|      Edge Meaning     	| Size (\|V\|) 	| Volume (\|E\|) 	| Edge Weight 	| Edge Timestamps 	| Multiple Edges 	|                     Source/Link                    	|
@@ -209,5 +172,4 @@ Note: Very small datasets are not included in the list.
 
 
 ## About
-
 This list was compiled by [Domagoj Margan](https://github.com/domargan) with help and resources from the systems community.
