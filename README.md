@@ -74,13 +74,13 @@ Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#stream
 
 [Kineograph: Taking the Pulse of a Fast-Changing and Connected World](https://dl.acm.org/citation.cfm?id=2168846)  (EuroSys 2012)
 
-[Differential dataflow](http://cidrdb.org/cidr2013/Papers/CIDR13_Paper111.pdf)  (CIDR 2013)
+[Differential Dataflow](http://cidrdb.org/cidr2013/Papers/CIDR13_Paper111.pdf)  (CIDR 2013)
 
 [Efficient Snapshot Retrieval over Historical Graph Data](https://ieeexplore.ieee.org/document/6544892)  (ICDE 2013)
 
 [Naiad: A Timely Dataflow System](https://dl.acm.org/citation.cfm?id=2522738)  (SOSP 2013)
 
-[Chronos: a graph engine for temporal graph analysis](https://dl.acm.org/citation.cfm?id=2592799)  (EuroSys 2014)
+[Chronos: A Graph Engine for Temporal Graph Analysis](https://dl.acm.org/citation.cfm?id=2592799)  (EuroSys 2014)
 
 [Towards Large-Scale Graph Stream Processing Platform](https://dl.acm.org/citation.cfm?id=2580051)  (WWW 2014)
 
@@ -90,7 +90,7 @@ Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#stream
 
 [ImmortalGraph: A System for Storage and Analysis of Temporal Graphs](https://dl.acm.org/citation.cfm?id=2700302)  (Transactions on Storage 2015)
 
-[LLAMA: Efficient graph analytics using Large Multiversioned Arrays](https://ieeexplore.ieee.org/document/7113298/)  (ICDE 2015)
+[LLAMA: Efficient Graph Analytics Using Large Multiversioned Arrays](https://ieeexplore.ieee.org/document/7113298/)  (ICDE 2015)
 
 [Real-time Analytics for Fast Evolving Social Graphs](https://ieeexplore.ieee.org/document/7152566)  (CCGrid 2015)
 
