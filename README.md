@@ -40,7 +40,8 @@ To add, remove or change things on the list:
 * [PPCSR](https://github.com/domargan/parallel-packed-csr) [C++]
     * Parallel and NUMA-aware implementation of PCSR data structure for streaming graphs
 * [Raphtory](https://github.com/Raphtory/Raphtory) [Scala]
-    * Snapshot-based distributed streaming graph processing system 
+    * Snapshot-based distributed streaming graph processing system
+    * [Paper](https://www.sciencedirect.com/science/article/pii/S0167739X19301621)
 * [STINGER](https://github.com/stingergraph/stinger) [C/C++]
     * Data structure for streaming graphs based on linked lists of blocks
     * [Paper](https://ieeexplore.ieee.org/document/6408680)
@@ -61,7 +62,15 @@ Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#stream
 
 [Packed Compressed Sparse Row: A Dynamic Graph Representation](https://ieeexplore.ieee.org/document/8547566) (HPEC 2018)
 
-[GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2019)  
+[GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2019)
+
+[GraphTinker: A High Performance Data Structure for Dynamic Graph Processing](https://ieeexplore.ieee.org/abstract/document/8821003) (IPDPS 2019)
+
+[CSR++: A Fast, Scalable, Update-Friendly Graph DataStructure](https://hal.archives-ouvertes.fr/hal-03060095/document) (OPODIS 2020)
+
+[LiveGraph: A Transactional Graph Storage System With Purely Sequential Adjacency List Scans](https://dl.acm.org/doi/abs/10.14778/3384345.3384351) (VLDB 2020)
+
+[A Parallel Packed Memory Array to Store Dynamic Graphs](https://epubs.siam.org/doi/pdf/10.1137/1.9781611976472.3) (ALENEX 2021)
 
 ### Systems and Frameworks
 [STINGER: Spatio-Temporal Interaction Networks and Graphs (STING) Extensible Representation](https://pdfs.semanticscholar.org/6992/7a3b9fc25e655ce662c03deb1e9d2832585c.pdf)  (2009)
@@ -122,8 +131,20 @@ Check [Julian Shun's list](https://people.csail.mit.edu/jshun/graph.shtml#stream
 
 [Low-Latency Graph Streaming Using Compressed Purely-Functional Trees](https://people.csail.mit.edu/jshun/aspen.pdf) (PLDI 2019)
 
-[GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2019)  
+[GraphOne: A Data Store for Real-time Analytics on Evolving Graphs](https://dl.acm.org/doi/abs/10.1145/3364180) (FAST 2019)
 
+[LiveGraph: A Transactional Graph Storage System With Purely Sequential Adjacency List Scans](https://dl.acm.org/doi/abs/10.14778/3384345.3384351) (VLDB 2020)
+
+[Raphtory: Streaming analysis of distributed temporal graphs](https://www.sciencedirect.com/science/article/pii/S0167739X19301621) (FGCS 2020)
+
+[RisGraph: A Real-Time Streaming System for Evolving Graphs](https://arxiv.org/abs/2004.00803) (2020)
+
+[Tegra: Efficient Ad-Hoc Analytics on Time-Evolving Graphs]() (NSDI 2021)
+
+### Surveys
+[The Ubiquity of Large Graphs and Surprising Challenges of Graph Processing](https://dl.acm.org/doi/abs/10.1145/3164135.3164139) (VLDB 2018)
+
+[Practice of Streaming and Dynamic Graphs: Concepts, Models, Systems, and Parallelism](https://www.research-collection.ethz.ch/handle/20.500.11850/462546) (2020)
 
 ## Datasets
 Note: Very small datasets are not included in the list.
