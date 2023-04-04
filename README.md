@@ -48,7 +48,7 @@ To add, remove or change things on the list:
 * [Temporal CSR on Ligra](https://github.com/jshun/ligra/tree/temporal) [C++]
     * Version of Ligra graph processing system for weighted temporal graphs.
     * Temporal CSR: supports graphs where edges have both weights and time intervals.
-    * Includes parallel implementations of [temporal SSSPs and temporal betweeness centralities)](https://github.com/jshun/ligra/blob/temporal/apps/temporal/).
+    * Includes parallel implementations of [temporal SSSPs and temporal betweeness centralities](https://github.com/jshun/ligra/blob/temporal/apps/temporal/).
 
 ### Benchmarking
 * [GraphTides](https://github.com/GraphTides/graphtides) [Java/TypeScript]
