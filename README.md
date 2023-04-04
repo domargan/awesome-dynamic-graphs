@@ -45,6 +45,10 @@ To add, remove or change things on the list:
 * [STINGER](https://github.com/stingergraph/stinger) [C/C++]
     * Data structure for streaming graphs based on linked lists of blocks
     * [Paper](https://ieeexplore.ieee.org/document/6408680)
+* [Temporal CSR on Ligra](https://github.com/jshun/ligra/tree/temporal) [C++]
+    * Version of Ligra graph processing system for weighted temporal graphs.
+    * Temporal CSR: supports graphs where edges have both weights and time intervals.
+    * Includes parallel implementations of [temporal SSSPs and temporal betweeness centralities)](https://github.com/jshun/ligra/blob/temporal/apps/temporal/).
 
 ### Benchmarking
 * [GraphTides](https://github.com/GraphTides/graphtides) [Java/TypeScript]
